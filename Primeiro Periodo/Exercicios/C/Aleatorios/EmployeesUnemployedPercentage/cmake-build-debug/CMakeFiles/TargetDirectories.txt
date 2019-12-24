@@ -1,0 +1,3 @@
+C:/Users/pedro/Desktop/whoami/Development/C Data/CLion Workspace/Exercises/EmployeesUnemployedPercentage/cmake-build-debug/CMakeFiles/EmployeesUnemployedPercentage.dir
+C:/Users/pedro/Desktop/whoami/Development/C Data/CLion Workspace/Exercises/EmployeesUnemployedPercentage/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pedro/Desktop/whoami/Development/C Data/CLion Workspace/Exercises/EmployeesUnemployedPercentage/cmake-build-debug/CMakeFiles/rebuild_cache.dir

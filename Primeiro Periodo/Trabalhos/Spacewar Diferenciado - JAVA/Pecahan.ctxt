@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Pecahan
+comment1.params=img
+comment1.target=Pecahan(greenfoot.GreenfootImage)
+comment2.params=MyWorld
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment3.params=
+comment3.target=void\ act()
+numComments=4

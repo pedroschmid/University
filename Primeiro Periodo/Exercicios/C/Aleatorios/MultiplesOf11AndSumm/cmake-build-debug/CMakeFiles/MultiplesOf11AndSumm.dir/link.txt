@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\MultiplesOf11AndSumm.dir/objects.a
+C:\PROGRA~1\MinGW\bin\ar.exe cr CMakeFiles\MultiplesOf11AndSumm.dir/objects.a @CMakeFiles\MultiplesOf11AndSumm.dir\objects1.rsp
+C:\PROGRA~1\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\MultiplesOf11AndSumm.dir/objects.a -Wl,--no-whole-archive  -o MultiplesOf11AndSumm.exe -Wl,--out-implib,libMultiplesOf11AndSumm.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MultiplesOf11AndSumm.dir\linklibs.rsp

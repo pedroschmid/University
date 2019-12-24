@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/pedro/Desktop/whoami/Development/C Data/CLion Workspace/Exercises/GuessingGame/main.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+

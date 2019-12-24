@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1565224200 source:c:\users\pedro\desktop\whoami\dev\codeblocks workspace\codeblocks projects\arealenghtcircle\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

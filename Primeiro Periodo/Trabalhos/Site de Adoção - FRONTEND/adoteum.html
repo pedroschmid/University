@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8" />
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    
+    <!-- OTHER LINK -->
+    
+    <title>ADOTE UM</title>
+</head>
+
+<body>
+
+    <!-- MENU -->
+
+    <!-- not responsive yet -->
+    <nav class="menu">
+        <ol>
+            <li class="menu-item"><a href="index.html">Início</a></li>
+            <li class="menu-item">
+                <a href="caes.html">Cães</a>
+                <ol class="sub-menu">
+                    <li class="menu-item"><a href="pequenoporte.html">Pequeno Porte</a></li>
+                    <li class="menu-item"><a href="medioporte.html">Porte Médio</a></li>
+                    <li class="menu-item"><a href="grandeporte.html">Grande Porte</a></li>
+                </ol>
+            </li>
+            <li class="menu-item"><a href="adoteum.html">Adote Um</a></li>
+        </ol>
+    </nav>
+
+    <!-- FORMULARIO -->
+    
+    <div id="container">
+  <h1>&bull; Adote Um Amigo &bull;</h1>
+  <div class="underline">
+  </div>
+  <br>
+  <form action="mailto:pedro.schmid2311@gmail.com" method="post" id="contact_form"> <!-- Ação do email -->
+    <div class="name">
+      <label for="name"></label>
+      <input type="text" placeholder="nome:" name="name" id="name_input" required="" oninvalid="this.setCustomValidity('Por Favor insira um nome')" oninput="setCustomValidity('')">
+    </div>
+    <div class="email">
+      <label for="email"></label>
+      <input type="email" placeholder="EMAIL:" name="email" id="email_input" required="" oninvalid="this.setCustomValidity('Por Favor insira um email valido')" oninput="setCustomValidity('')">
+    </div>
+    <div class="telephone">
+      <label for="name"></label>
+      <input type="text" placeholder="TELEFONE:" name="telephone" id="telephone_input" required="" oninvalid="this.setCustomValidity('Por Favor insira um telefone valido')" oninput="setCustomValidity('')">
+    </div>
+    <div class="subject">
+      <label for="subject"></label>
+      <select placeholder="Subject line" name="subject" id="subject_input" required="" oninvalid="this.setCustomValidity('Por Favor selecione o porte do cão')" oninput="setCustomValidity('')">
+        <option disabled hidden selected>Selecione o porte do cão:</option>
+        <option>pequeno porte</option>
+        <option>medio porte</option>
+        <option>grande porte</option>
+      </select>
+    </div>
+    <div class="message">
+      <label for="message"></label>
+      <textarea name="message" placeholder="Deixe um comentario sobre a adoção aqui:" id="message_input" cols="30" rows="5" required="" oninvalid="this.setCustomValidity('Por Favor insira as informações da adoção')" oninput="setCustomValidity('')"></textarea>
+    </div>
+    <div class="submit">
+      <input type="submit" value="enviar" id="form_button" onclick="clicked();"/> <!-- Botão de enviar -->
+    </div>
+  </form><!-- // Fim do form -->
+</div><!-- // Fim do #container -->
+    
+
+    <!-- FOOTER -->
+
+    <footer class="page-footer font-small blue">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            Pedro Guilherme
+        </div>
+    </footer>
+
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../jquery/jquery.js"></script>
+
+    <!-- Custom JS link -->
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>

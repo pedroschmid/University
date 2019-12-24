@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1565839834 source:c:\users\pedro\desktop\whoami\dev\codeblocks workspace\codeblocks projects\restaurantwatertank\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

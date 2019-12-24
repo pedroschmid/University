@@ -1,0 +1,3 @@
+C:/Users/pedro/Documents/GitHub/C/Data/Exercises/GradeSystemUVV/cmake-build-debug/CMakeFiles/GradeSystemUVV.dir
+C:/Users/pedro/Documents/GitHub/C/Data/Exercises/GradeSystemUVV/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pedro/Documents/GitHub/C/Data/Exercises/GradeSystemUVV/cmake-build-debug/CMakeFiles/rebuild_cache.dir

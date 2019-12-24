@@ -1,0 +1,3 @@
+E:/Dev/Codes/TrabalhoC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/Dev/Codes/TrabalhoC/cmake-build-debug/CMakeFiles/TrabalhoC.dir
+E:/Dev/Codes/TrabalhoC/cmake-build-debug/CMakeFiles/edit_cache.dir

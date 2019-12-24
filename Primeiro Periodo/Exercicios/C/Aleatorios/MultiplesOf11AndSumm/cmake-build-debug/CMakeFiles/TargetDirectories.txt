@@ -1,0 +1,3 @@
+C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/CMakeFiles/MultiplesOf11AndSumm.dir
+C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,648 @@
+/* CSS DO MENU */
+
+.menu {
+    background: #222;
+    /* BACKGROUND DO MENU */
+    height: 4rem;
+}
+
+.menu ol {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.menu > ol {
+    max-width: 1000px;
+    padding: 0 2rem;
+    display: flex;
+}
+
+.menu > ol > .menu-item {
+    flex: 1;
+    padding: 0.75rem 0;
+}
+
+.menu > ol > .menu-item:after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    bottom: 5px;
+    left: calc(50% - 2px);
+    background: #7B68EE;
+    /* BACKGROUND DA BOLINHA DO DROPDOWN */
+    will-change: transform;
+    transform: scale(0);
+    transition: transform 0.2s ease;
+}
+
+.menu > ol > .menu-item:hover:after {
+    transform: scale(1);
+}
+
+.menu-item {
+    position: relative;
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+.menu-item a {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    color: #FFF;
+}
+
+.sub-menu .menu-item {
+    padding: 0.75rem 0;
+    background: #222;
+    /* BACKGROUND DO DROPWDOWN */
+    opacity: 0;
+    transform-origin: bottom;
+    animation: enter 0.2s ease forwards;
+}
+
+.sub-menu .menu-item:nth-child(1) {
+    animation-duration: 0.2s;
+    animation-delay: 0s;
+}
+
+.sub-menu .menu-item:nth-child(2) {
+    animation-duration: 0.3s;
+    animation-delay: 0.1s;
+}
+
+.sub-menu .menu-item:nth-child(3) {
+    animation-duration: 0.4s;
+    animation-delay: 0.2s;
+}
+
+.sub-menu .menu-item:hover {
+    background: #474544;
+    /* BACKGROUND DO DROPWDOWN MOUSEOVER */
+}
+
+.sub-menu .menu-item a {
+    padding: 0 0.75rem;
+}
+
+@media screen and (max-width: 600px) {
+    .sub-menu .menu-item {
+        background: #C06C84;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu {
+        position: relative;
+    }
+
+    .menu:after {
+        content: "";
+        position: absolute;
+        top: calc(50% - 2px);
+        right: 1rem;
+        width: 30px;
+        height: 4px;
+        background: #FFF;
+        box-shadow: 0 10px #FFF, 0 -10px #FFF;
+    }
+
+    .menu > ol {
+        display: none;
+        background: #F67280;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        animation: fade 0.2s ease-out;
+    }
+
+    .menu > ol > .menu-item {
+        flex: 0;
+        opacity: 0;
+        animation: enter 0.3s ease-out forwards;
+    }
+
+    .menu > ol > .menu-item:nth-child(1) {
+        animation-delay: 0s;
+    }
+
+    .menu > ol > .menu-item:nth-child(2) {
+        animation-delay: 0.1s;
+    }
+
+    .menu > ol > .menu-item:nth-child(3) {
+        animation-delay: 0.2s;
+    }
+
+    .menu > ol > .menu-item:nth-child(4) {
+        animation-delay: 0.3s;
+    }
+
+    .menu > ol > .menu-item:nth-child(5) {
+        animation-delay: 0.4s;
+    }
+
+    .menu > ol > .menu-item + .menu-item {
+        margin-top: 0.75rem;
+    }
+
+    .menu > ol > .menu-item:after {
+        left: auto;
+        right: 1rem;
+        bottom: calc(50% - 2px);
+    }
+
+    .menu > ol > .menu-item:hover {
+        z-index: 1;
+    }
+
+    .menu:hover > ol {
+        display: flex;
+    }
+
+    .menu:hover:after {
+        box-shadow: none;
+    }
+}
+
+.sub-menu {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    display: none;
+    z-index: 1;
+}
+
+.menu-item:hover > .sub-menu {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .sub-menu {
+        width: 100vw;
+        left: -2rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+body {
+    /* PODE CAUSAR PROBLEMAS */
+    font-size: 16px;
+    font-family: "Fira Mono", monospace;
+    margin: 0;
+    background-color: #f2f3eb;
+    /* BACKGROUND DA PAGINA */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+@keyframes enter {
+    from {
+        opacity: 0;
+        transform: scaleY(0.98) translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* CSS DO FOOTER */
+
+.page-footer {
+    background: #323639;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 100hv;
+    text-align: inherit;
+}
+
+.footer-copyright {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+/* CSS DO CONTENT */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700");
+body, html {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background-color: #F9F9F9;
+}
+
+@media (min-width: 1200px) {
+  #app {
+    display: flex;
+  }
+
+  @supports (display: grid) {
+    #app {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+.article-header {
+  background-image: url('https://i.pinimg.com/564x/5a/b1/25/5ab12522263ed5c5064785b879a3a0e8.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  position: relative;
+}
+
+@media (min-width: 600px) {
+  .article-header {
+    height: 80vh;
+  }
+}
+@media (min-width: 1200px) {
+  .article-header {
+    height: 100vh;
+    width: 50vw;
+  }
+}
+.article-header-text {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  text-align: right;
+  max-width: 40%;
+}
+.article-header-text h1,
+.article-header-text h2 {
+  color: white;
+}
+
+@media (min-width: 600px) {
+  .article-header-text {
+    max-width: 70%;
+  }
+}
+.article-header-title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+@media (min-width: 600px) {
+  .article-header-title {
+    font-size: 5.25rem;
+  }
+}
+.article-header-byline {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 600px) {
+  .article-header-byline {
+    font-size: 1.5rem;
+  }
+}
+.article-text {
+  padding: 1rem;
+  max-width: 650px;
+  margin: auto;
+}
+
+.article-text-lead {
+  padding: 2rem 1rem;
+}
+.article-text-lead h3 {
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+}
+@media (min-width: 600px) {
+  .article-text-lead h3 {
+    text-align: right;
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .article-text-lead h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .article-text-lead {
+    padding: 3rem 0 3rem 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .article-text-lead {
+    padding: 2rem 0 5rem 3rem;
+  }
+}
+@media (min-width: 600px) {
+  .article-text-content {
+    -webkit-columns: 2;
+            columns: 2;
+    -webkit-column-width: 300px;
+            column-width: 300px;
+  }
+  .article-text-content p:first-of-type {
+    margin-top: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .article-text-content {
+    -webkit-columns: 3;
+            columns: 3;
+    -webkit-column-width: 100px;
+            column-width: 100px;
+  }
+  .article-text-content p {
+    font-size: 0.95rem;
+  }
+}
+
+/* CSS DO FORMULARIO */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html {
+  font-family: "Montserrat", Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #f2f3eb;
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+input,
+select,
+textarea {
+  color: #5a5a5a;
+  font: inherit;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#container {
+  border: solid 3px #474544;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 425px;
+}
+
+.icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
+}
+
+.icon {
+  display: block;
+  fill: #474544;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.email {
+  float: right;
+  width: 45%;
+}
+
+input[type="text"],
+[type="email"],
+select,
+textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 2px #474544;
+  color: #474544;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0em 0 1.875em 0;
+  padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+input[type="text"]:focus,
+[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  padding: 0 0 0.875em 0;
+}
+
+.message {
+  float: none;
+}
+
+.name {
+  float: left;
+  width: 45%;
+}
+
+select {
+  background: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png")
+    no-repeat right;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+  line-height: 150%;
+  height: 150px;
+  resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: #474544;
+}
+
+:-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #474544;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #474544;
+  color: #f2f3eb;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  .underline {
+    width: 68px;
+  }
+
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+
+  .underline {
+    width: 53px;
+  }
+
+  input[type="text"],
+  [type="email"],
+  select,
+  textarea {
+    font-size: 0.875em;
+  }
+}
+
+/* CSS DO SLIDE */
+
+.carousel-item {
+    height: 90vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }

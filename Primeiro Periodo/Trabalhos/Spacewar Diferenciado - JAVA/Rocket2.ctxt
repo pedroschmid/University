@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Rocket2
+comment1.params=MyWorld
+comment1.target=void\ addToWorld(greenfoot.World)
+comment2.params=
+comment2.target=void\ Hancur()
+comment3.params=
+comment3.target=void\ move()
+comment4.params=
+comment4.target=void\ act()
+numComments=5

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1566008083 source:c:\users\pedro\desktop\whoami\dev\codeblocks workspace\codeblocks projects\soccermatch\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

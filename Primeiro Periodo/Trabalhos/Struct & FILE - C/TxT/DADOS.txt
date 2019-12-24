@@ -1,0 +1,50 @@
+Paula Cristina Bento
+Feminino
+24.5
+206
+Casado
+Fernanda Souza Bragança
+Feminino
+22.8
+1107
+Solteiro
+Beth de Almeida Prado Alencar
+Feminino
+37.7
+32
+Casado
+Amanda de Paula Santos
+Feminino
+26.5
+301
+Solteiro
+Carla Pereira da Silva
+Feminino
+23.5
+303
+Casado
+Maria da Silva
+Feminino
+24.6
+179
+Solteiro
+Vitor dos Santos Bastos
+Masculino
+28.8
+205
+Solteiro
+Marta Almeida
+Feminino
+26.6
+250
+Solteiro
+Paulo da Cruz Benta
+Masculino
+28.3
+54
+Solteiro
+Pedro Alcantara de Alburquerque
+Masculino
+17.2
+202
+Casado

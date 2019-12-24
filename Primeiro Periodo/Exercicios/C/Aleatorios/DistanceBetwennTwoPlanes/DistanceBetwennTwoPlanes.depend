@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1565544211 source:c:\users\pedro\desktop\whoami\dev\codeblocks workspace\codeblocks projects\distancebetwenntwoplanes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

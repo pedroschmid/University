@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1566238453 source:c:\users\pedro\desktop\whoami\dev\codeblocks workspace\codeblocks projects\letteridentifier\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1565304550 source:c:\users\pedro\desktop\whoami\dev\codeblocks workspace\codeblocks projects\bruteliquidsalary\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

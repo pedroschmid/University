@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MultiplesOf11AndSumm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MultiplesOf11AndSumm">
+				<Option output="C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/MultiplesOf11AndSumm.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultiplesOf11AndSumm"/>
+					<CompileFile command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MultiplesOf11AndSumm/fast">
+				<Option output="C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/MultiplesOf11AndSumm.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultiplesOf11AndSumm/fast"/>
+					<CompileFile command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/main.c">
+			<Option target="MultiplesOf11AndSumm"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/Desktop/whoami/Development/Data/C Data/CLion Workspace/Exercises/MultiplesOf11AndSumm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

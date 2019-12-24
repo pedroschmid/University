@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1566009797 source:c:\users\pedro\desktop\whoami\dev\codeblocks workspace\codeblocks projects\multipleeleventhirteen\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
