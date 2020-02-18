@@ -1,0 +1,20 @@
+
+1) 
+Criar um vetor com 10 objetos. 
+Os Objetos tem 2 atributos: idade:Number e nome:String
+Para criar este vetor, fazer uma funcao que retorna este vetor de objetos.
+
+2)
+a) Ordenar o vetor por nome. 
+b) Ordenar o vetor por idade.
+
+3)
+fazer uma funcao que percorre o vetor de objetos criado no exercicio 1 e
+retorna: o objeto com maior e menor idade
+
+4)
+fazer uma funcao que percorre o vetor de objetos criado no exercicio 1 e
+retorna: o objeto com menor e maior nome
+
+5) fazer uma funcao que ordena por qualquer atributo do objeto: string ou numero.
+Usar os mesmos exemplos do exercício número 2, agora usando esta função;
