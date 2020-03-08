@@ -61,7 +61,7 @@ console.log(
 let oddDisruption = (arrayOdd = [], arrayOddLength) => {
   let newArray = [];
 
-  for (let i = 3; i < 7; i++) newArray.push(arrayOdd[i]);
+  for (let i = 2; i < arrayOddLength; i++) newArray.push(arrayOdd[i]);
 
   let [firstValue, secondValue, thirdValue] = [
     arrayOdd[0],
